@@ -8,7 +8,7 @@ void print_class(std::string courses[4], std::string students[], int report_card
     //initialize coutse_name
     for (int i =0;i<4;i++)
     {
-        cout<<"enter the name of the course: ";
+        //cout<<"enter the name of the course: ";
         getline(cin,courses[i]);
         cin.clear();
         cin.sync();
@@ -17,7 +17,7 @@ void print_class(std::string courses[4], std::string students[], int report_card
     //initialize student names
     for (int j =0;j<nstudents;j++)
     {
-        cout<<"enter student's name: ";
+        //cout<<"enter student's name: ";
         getline(cin,students[j]);
         cin.clear();
         cin.sync();
@@ -28,13 +28,18 @@ void print_class(std::string courses[4], std::string students[], int report_card
     {
         for (int w =0;w<4;w++)
         {
-            cout<<"your grades;";
+            //cout<<"your grades;";
             cin>>report_card[q][w];
         }
     }
 
     //output course's names
     cout<<"Report Card easy average very difficult impossible"<<endl;
+
+    //students' name
+    //string
+
+
     for (int e =0;e<4;e++)
     {
         cout<<courses[e];
