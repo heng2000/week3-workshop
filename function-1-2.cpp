@@ -34,7 +34,7 @@ void print_class(std::string courses[4], std::string students[], int report_card
     }
 
     //output course's names
-    cout<<"Report Card"<<endl;
+    cout<<"Report Card easy average very difficult impossible"<<endl;
     for (int e =0;e<4;e++)
     {
         cout<<courses[e];
