@@ -9,14 +9,18 @@ void print_class(std::string courses[4], std::string students[], int report_card
     for (int i =0;i<4;i++)
     {
         cout<<"enter the name of the course: ";
-        cin>>courses[i];
+        getline(cin,courses[i]);
+        cin.clear();
+        cin.sync();
     }
 
     //initialize student names
     for (int j =0;j<nstudents;j++)
     {
         cout<<"enter student's name: ";
-        cin>>students[j];
+        getline(cin,students[j]);
+        cin.clear();
+        cin.sync();
     }
 
     //initialize grades
