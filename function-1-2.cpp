@@ -30,7 +30,7 @@ void print_class(std::string courses[4], std::string students[], int report_card
     }
 
     //output course's names
-    cout<<"Report Card easy average very difficult impossible"<<endl;
+    cout<<"Report Card ";
 
     //students' name
     /*students[1]={"average"};
